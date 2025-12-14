@@ -1,4 +1,24 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 550px;
+    height: 550px;
+}
+
+.options{
+    display: flex;
+    padding: 27px 19px 29px 19px;
+    gap: 13px;
+}
+
+input[type="color"]{
+    padding: 4px 5px;
+    height: 42px;
+    width: 61px;
+}
+.color-scheme{
+    width:312px;
+    padding: 9px 37px 9px 13px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
 }
